@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etsydemo</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<a href="/pages/about">About</a>
+<a href="/pages/contact">Contact</a>
+<%= yield %>
+<p>Copyright 2013</p>
+
+</body>
+</html>
