@@ -18,6 +18,3 @@
 
 # Ignore application configuration
 /config/application.yml
-
-# Ignore dropbox.yml
-/config/dropbox.yml
