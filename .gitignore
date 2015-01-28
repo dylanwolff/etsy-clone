@@ -16,8 +16,5 @@
 !/log/.keep
 /tmp
 
-# Ignore secrets.yml
-/config/secrets.yml
-
-# Ignore dropbox.yml
-config/dropbox.yml
+# Ignore application configuration
+/config/application.yml
