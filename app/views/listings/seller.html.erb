@@ -9,10 +9,10 @@
 
   <% @listings.each do |listing| %>
     <tr>
-      <td><%= image_tag listing.image.url(:thumb) %></td>
-      <td><%= listing.name %></td>
-      <td><%= listing.description %></td>
-      <td><%= number_to_currency(listing.price) %></td>
+      <td class="center"><%= image_tag listing.image.url(:thumb) %></td>
+      <td class="center"><%= listing.name %></td>
+      <td class="center"><%= listing.description %></td>
+      <td class="center"><%= number_to_currency(listing.price) %></td>
       <td>
         <div class="btn-group">
           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Action <span class="caret"></span></button>
