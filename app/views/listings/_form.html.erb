@@ -28,6 +28,23 @@
     <%= f.label :image %><br>
     <%= f.file_field :image, class: "form-control" %>
   </div>
+
+  <br>
+  <h1>Bank Account Information</h1>
+
+  <div class="form-group">
+    <%= label_tag :country %>
+    <%= text_field_tag :country, nil, { :name => nil, :'data-stripe' => "country", class: "form-control" } %>
+  </div>
+  <div class="form-group">
+    <%= label_tag :routing_number %>
+    <%= text_field_tag :routing_number, nil, { :name => nil, :'data-stripe' => "routingNumber", class: "form-control" } %>
+  </div>
+  <div class="form-group">
+    <%= label_tag :account_number %>
+    <%= text_field_tag :account_number, nil, { :name => nil, :'data-stripe' => "accountNumber", class: "form-control" } %>
+  </div>
+  
   <div class="form-group">
     <%= f.submit class: "btn btn-primary" %>
   </div>
