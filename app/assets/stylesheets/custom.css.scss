@@ -24,6 +24,15 @@ body {
   color: #0192B5;
 }
 
+.jumbotron {
+  background-image: url('https://dl.dropboxusercontent.com/s/xoj56r3ab9w58ls/jumbotron.jpeg');
+  background-position: 45%;
+  h1, h2 {
+    font-family: guardian-egyptt, georgia, serif;
+    color: #fff;
+    text-shadow: #000 2px 2px;
+  }
+}
 .center {
   text-align: center;
 }
