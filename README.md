@@ -1,3 +1,3 @@
-## etsyclone
+## etsy-clone
 
-A simplified Etsy-style marketplace.
+A simplified Etsy-like marketplace.
