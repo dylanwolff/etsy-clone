@@ -1,4 +1,0 @@
-== etsydemo
-
-A simplified clone of etsy.com.
-

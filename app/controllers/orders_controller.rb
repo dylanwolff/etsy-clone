@@ -38,6 +38,7 @@ class OrdersController < ApplicationController
         )
     rescue Stripe::CardError => e
       flash[:danger] = e.message
+      # redirect_to :back
     end
 
     transfer = Stripe::Transfer.create(
